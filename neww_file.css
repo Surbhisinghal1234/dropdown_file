@@ -43,8 +43,14 @@ ul .newlist{
     background-color: orangered ;
     display: none;
     color: white;
-    padding:  10px;
-    border-radius: 5px;
+    border-radius: 5px;  
+    width: 175px; 
+    height: 165px; 
+}
+.newlist li:hover{
+    background-color: black;
+
+    
     
 }
 .newlist li{
@@ -53,13 +59,57 @@ ul .newlist{
 .vice:hover .newlist{
     display: block;
 }
+
 .newlist{
     list-style: none;
 }
+
 ul .home{
     position: relative;
 }
 a{
     text-decoration: none;
     color: white;
+}
+ul .design{
+    display: none;
+    position: absolute;
+    top: 130px;
+    left: -150px;
+    height: 130px;
+    width: 150px;
+    background-color: orangered ;
+    display: none;
+    color: white;
+    border-radius: 5px;    
+}
+
+.graph:hover .design{
+    display: block;
+}
+ul .com{
+    display: none;
+    position: absolute;
+    top: 44px;
+    left: 180px;
+    height: 165px;
+    width: 180px;
+    background-color: orangered ;
+    display: none;
+    color: white;
+    border-radius: 5px; 
+    list-style: none;
+    
+}
+.com li{
+        padding: 10px 0 0 20px;
+
+}
+.com li:hover{
+    background-color: #000000;
+
+}
+
+.port:hover .com{
+    display: block;
 }
